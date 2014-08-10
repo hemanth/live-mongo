@@ -1,0 +1,68 @@
+[{
+    "title": "Javascript Enlightenment",
+    "author": "Cody Lindley",
+    "level": "Intermediate",
+    "info": "An accurate JavaScript worldview through an examination of native JavaScript objects and supporting nuances."
+  }, {
+    "title": "Eloquent Javascript",
+    "author": "Marijn Haverbeke",
+    "level": "Beginner",
+    "info": "A book providing an introduction to the JavaScript language and programming in general."
+  }, {
+    "title": "Building A JavaScript Framework",
+    "author": "Alex Young",
+    "level": "Advanced",
+    "info": "best Of Let’s Make a Framework articles."
+  }, {
+    "title": "Learn.js: a guidebook to building projects with javascript",
+    "author": "Seth Vincent",
+    "level": "Beginner",
+    "info": "You've already learned the basics of the language, now you need to level up on the tools commonly used in building projects with javascript."
+  }, {
+    "title": "JavaScript Allonge",
+    "author": "Reginald Braithwaite",
+    "level": "Intermediate",
+    "info": "JavaScript Allongé is a book about programming with functions, because JavaScript is a programming language built on flexible and powerful functions."
+  }, {
+    "title": "jQuery Enlightenment",
+    "author": "Cody Lindley",
+    "level": "Intermediate",
+    "info": "A book for jQuery developers who have surpassed the introductory concepts."
+  }, {
+    "title": "D3 Tips and Tricks",
+    "author": "Malcolm Maclean",
+    "level": "Intermediate",
+    "info": "Over 430 pages of tips and tricks for using d3.js, one of the leading data visualization tools for the web. It's aimed at helping people get started and also includes loads of help for more complicated tasks."
+  }, {
+    "title": "JavaScript and Node FUNdamentals",
+    "author": "Azat Mardanov",
+    "level": "Beginner",
+    "info": "A Collection of Essential Basics."
+  }, {
+    "title": "Recipes with Angular.js",
+    "author": "Frederik Dietz",
+    "level": "Beginner",
+    "info": "Practical concepts and techniques for rapid web application development"
+  }, {
+    "title": "Speaking Javascript",
+    "author": "Axel Rauschmayer",
+    "level": "Beginner",
+    "info": "Like it or not, JavaScript is everywhere these days—from browser to server to mobile—and now you, too, need to learn the language or dive deeper than you have. This concise book guides you into and through JavaScript, written by a veteran programmer who once found himself in the same position."
+  }, {
+    "title": "You Don't Know JS (series)",
+    "author": "Kyle Simpson",
+    "level": "Advanced",
+    "info": "Learn and deeply know *all* of JS (not just the 'good parts')"
+  }, {
+    "title": "ECMAscript language reference",
+    "author": "various authors",
+    "level": "Advanced",
+    "info": "Learn all about the Javacript language specifications with this official ECMA-262 bible."
+  }, {
+    "title": "Human Javascript",
+    "author": "Henrik Joreteg",
+    "level": "Intermediate",
+    "info": "Practical patterns for simple but powerful javascript apps. No magic frameworks. No monolithic toolkits. You're going to work with proper, real-life javascript in a way you'll understand, and with explanations that help you learn how to make great choices as you build your apps."
+  }
+
+]
