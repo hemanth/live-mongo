@@ -10,7 +10,7 @@
 angular.module('liveMongoApp')
   .controller('MainCtrl', function($scope, $http) {
 
-    $http.get('data/books.json').
+    $http.get('http://localhost:1337/books').
     success(function(resp) {
       $scope.books = angular.fromJson(resp);
     }).
