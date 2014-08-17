@@ -7,8 +7,12 @@
  * # MainCtrl
  * Controller of the liveMongoApp
  */
-angular.module('liveMongoApp')
-  .controller('MainCtrl',['$scope','BookService',function($scope,BookService) {
+var app = angular.module('liveMongoApp');
+
+app.directive('liveMongo',function(){
+  return {
+    restrict: 'E',
+    controller: function($scope,BookService) {
     $scope.books = BookService.getBooks.success(function(data){
       $scope.books = data;
     });
@@ -25,7 +29,14 @@ angular.module('liveMongoApp')
       //TDB save to DB.
     });
 
-  }]).factory('BookService',function($http){
+  },
+   templateUrl: '../views/live-mongo.html',
+   controllerAs: 'MongoCtrl'
+
+  }
+});
+
+app.factory('BookService',['$http',function($http){
     var getBooks =
         $http.get('http://localhost:1337/books').
       success(function(resp) {
@@ -38,5 +49,5 @@ angular.module('liveMongoApp')
     return {
       getBooks : getBooks
     };
-  });
+}]);
 
